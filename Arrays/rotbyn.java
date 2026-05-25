@@ -42,6 +42,8 @@ public class rotbyn {
 
 
         //Method 3 - The most optimal way to handle this is. using the reverse method 
+        // Time Complexity: O(N), We reverse parts of the array each reverse takes linear time. So total work is 3 × O(N) = O(N).
+        // Space Complexity: O(1) All modifications are done in-place, using only a few temporary variables.
         //Step 1 - make the reverse function and reverse from start to kth element;
         reverseArr(arr, 0, k-1);
         //Step 2 - now we reverse from the k to end
